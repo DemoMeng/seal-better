@@ -1,4 +1,4 @@
-package com.mqz.seal.factory;
+package com.mqz.seal.VNobody;
 
 public class SealCircle {
 
