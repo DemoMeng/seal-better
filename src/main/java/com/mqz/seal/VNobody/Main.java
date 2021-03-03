@@ -24,7 +24,7 @@ public class Main {
         //mainFont.setFontSize(35);
         //mainFont.setFontSpace(35.0);
         /**************************************************/
-        mainFont.setFontText("广州壹八壹网络科技有限公司");
+        mainFont.setFontText("杭州蒙大拿网络科技有限公司");
         mainFont.setFontSize(35);
         mainFont.setFontSpace(30.0);
         /**************************************************/
