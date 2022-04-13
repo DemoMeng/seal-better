@@ -29,10 +29,10 @@ public class ZMain {
         PublicSealBuilder psb = new YXSeal();
         PublicSealDTO dto = new PublicSealDTO()
                 .setColor(1)
-                .setCompanyName("蒙大拿传媒科技有限公司")
+                .setCompanyName("XXXX有限公司")
                 .setFont(1)
-                .setNo("92369866312X")
-                .setTitle("测试专用章");
+                .setNo("4201181206232");
+                //.setTitle("");
         String base64 = psb.handleToBase64(dto);
         System.out.println(base64);
     }

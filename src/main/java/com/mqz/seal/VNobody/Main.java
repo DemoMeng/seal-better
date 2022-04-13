@@ -20,15 +20,15 @@ public class Main {
         //mainFont.setFontFamily("楷体");
         mainFont.setMarginSize(13);
         /**************************************************/
-        //mainFont.setFontText("欢乐无敌制图网淘宝店专用章");
+        //mainFont.setFontText("XXXXX店专用章");
         //mainFont.setFontSize(35);
         //mainFont.setFontSpace(35.0);
         /**************************************************/
-        mainFont.setFontText("杭州蒙大拿网络科技有限公司");
+        mainFont.setFontText("xxxxx有限公司");
         mainFont.setFontSize(35);
         mainFont.setFontSpace(30.0);
         /**************************************************/
-//        mainFont.setFontText("浙江葫芦娃网络集团有限公司");
+//        mainFont.setFontText("浙江XXXXXX集团有限公司");
 //        mainFont.setFontSize(25);
 //        mainFont.setFontSpace(12.0);
 
@@ -56,7 +56,7 @@ public class Main {
 //        centerFont.setFontFamily("宋体");
         /**************************************************/
         centerFont.setFontText("★");
-        centerFont.setFontSize(100);
+        centerFont.setFontSize(120);
         /**************************************************/
         //centerFont.setFontText("淘宝欢乐\n制图网淘宝\n专用章");
         //centerFont.setFontSize(20);
@@ -64,8 +64,8 @@ public class Main {
         //centerFont.setFontText("123456789012345");
         //centerFont.setFontSize(20);
         /**************************************************/
-        centerFont.setFontText("\n\n\n\n★\n合同专用章");
-        centerFont.setFontSize(25);
+        //centerFont.setFontText("\n\n\n\n★\n合同专用章");
+        //centerFont.setFontSize(25);
 
         /**
          * 抬头文字
@@ -126,15 +126,15 @@ public class Main {
 
         //1.生成公章
         try {
-            SealUtil.buildAndStoreSeal(configuration, "/Applications/mqz/seal-builder/gong.png");
+            SealUtil.buildAndStoreSeal(configuration, "/Users/mengqizhang/Documents/mqz/seal-better/gong.png");
         } catch (IOException e) {
             e.printStackTrace();
         }
 
         //2.生成私章
         SealFont font = new SealFont();
-        font.setFontSize(50).setBold(false).setFontText("蒙启章");
-        SealUtil.buildAndStorePersonSeal(160, 15, font, "", "/Applications/mqz/seal-builder/pe.png");
+        font.setFontSize(50).setBold(false).setFontText("蒙大拿");
+        SealUtil.buildAndStorePersonSeal(160, 15, font, "", "/Users/mengqizhang/Documents/mqz/seal-better/pe.png");
     }
 
 }

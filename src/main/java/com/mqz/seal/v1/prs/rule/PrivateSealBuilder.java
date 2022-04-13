@@ -11,7 +11,7 @@ import com.mqz.seal.v1.prs.model.SealDTO;
 public abstract class PrivateSealBuilder {
 
     public static final String base64Prefix="data:image/png;base64,";
-    public static final String SEAL_SAVE_PATH = "/Applications/mqz/seal-builder/temp/private/";
+    public static final String SEAL_SAVE_PATH = "/Users/mengqizhang/Documents/mqz/seal-better/temp/private/";
     public static final String Font_HeiTi = "SimHei";//"Heiti";
     public static final String Font_FangSong = "SimSun";//STFangsong
     public static final String Font_KaiTi = "KaiTi";//"STKaiti";

@@ -22,7 +22,7 @@ import java.io.File;
  */
 public class SealRepository {
 
-    public static final String SEAL_SAVE_PATH = "/Applications/mqz/seal-builder/temp/public/";
+    public static final String SEAL_SAVE_PATH = "/Users/mengqizhang/Documents/mqz/seal-better/temp/public/";
 
     private static void drawArcFont4Circle(Graphics2D g2d, int circleRadius, SealFont font, boolean isTop) {
         if (font != null) {
@@ -254,7 +254,7 @@ public class SealRepository {
             } else {
                 Rectangle2D rectangle2D = f.getStringBounds(font.getFontText(), context);
                 marginSize = font.getMarginSize() == null ? (float)((double)(circleHeight / 2) - rectangle2D.getCenterY()) : (float)((double)(circleHeight / 2) - rectangle2D.getCenterY()) + (float)font.getMarginSize();
-                g2d.drawString(font.getFontText(), (float)((double)(circleWidth / 2) - rectangle2D.getCenterX() + 1.0D), marginSize);
+                g2d.drawString(font.getFontText(), (float)((double)(circleWidth / 2.2) - rectangle2D.getCenterX() + 1.0D), marginSize);
             }
 
         }
